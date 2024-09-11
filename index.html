@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Student{
+            //Data (Properties)
+           constructor(name, age, username) {
+            this.Name = name;
+            this.Age = age;
+            this.Username = username;
+
+           }
+
+            //Methods (Action)
+            study(study){
+                this.Study = study;
+            }
+            play(){
+                //Play
+            }
+
+            doHomeWork(){
+                //Do Home Work
+            }
+        }
+        const student = new Student('Mark John',18,'NonoyPalaboy')
+        const student1 = new Student('migelito',12,'gwapo')
+        
+        
+        console.log(student.Name)
+        console.log(student.Age)
+        console.log(student.Username)
+
+        console.log(student1.Name)
+        console.log(student1.Age)
+        console.log(student1.Username)
+    </script>
+</body>
+</html>
